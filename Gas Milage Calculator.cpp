@@ -2,15 +2,15 @@
 // C Code
 #include<stdio.h>
 int main() {
-	float miles=0, gallons=0, t_miles=0, average=0, mil_gal=0; //Declaration of Variables
-	int i = 1, count = 0;
+	float miles=0, gallons=0, t_miles=0, average=0, mil_gal=0; //Declaration of Variables in float
+	int i = 1, count = 0; //Declaration of Variables in integers
 
 	while (i != -1)
 	{
 		printf("Enter the gallons used: ");
 		scanf_s("%f", &gallons); //Gallon Input
 
-		i = (int) gallons;
+		i = (int) gallons; //typecasting
 		if (i == -1) //loop break condition
 			break; 
 		else
