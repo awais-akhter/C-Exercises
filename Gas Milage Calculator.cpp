@@ -7,7 +7,7 @@ int main() {
 
 	while (i != -1)
 	{
-		printf("Enter the gallons used: ");
+		printf("Enter the gallons used (-1 to end): ");
 		scanf_s("%f", &gallons); //Gallon Input
 
 		i = (int) gallons; //typecasting
