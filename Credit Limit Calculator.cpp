@@ -4,7 +4,7 @@ b) Balance at the beginning of the month
 c) Total of all items charged by this customer this month
 d) Total of all credits applied to this customer's account this month
 e) Allowed credit limit
-The program should input each fact, calculate the new balance (= beginning balance + charges ñ credits), and determine whether the new balance exceeds the customer's credit limit. For those customers whose credit limit is exceeded, the program should display the customer's account number, credit limit, new balance and the message ìCredit limit exceeded.î Here is a sample input/output dialog:*/
+The program should input each fact, calculate the new balance (= beginning balance + charges ‚Äì credits), and determine whether the new balance exceeds the customer's credit limit. For those customers whose credit limit is exceeded, the program should display the customer's account number, credit limit, new balance and the message ‚ÄúCredit limit exceeded.‚Äù */
 
 #include <stdio.h>
 int main() {
