@@ -18,7 +18,7 @@ int main() {
 		printf("Enter Interest Rate: "); //Interest Rate Input
 		scanf("%f", &rate);
 
-		printf("Enter Days: "); //Days Input
+		printf("Enter the term of loan in days: "); //Days Input
 		scanf("%d", &days);
 
 		interest = principal * rate * days / 365; //interest calculation
